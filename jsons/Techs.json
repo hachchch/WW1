@@ -38,12 +38,12 @@
 			},
 			{
 				"name": "Industrial Chemistry",
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Replaceable Parts","Grenades"],
 			},
 			{
 				"name": "Ballistics",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Flight","Breechloader"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
