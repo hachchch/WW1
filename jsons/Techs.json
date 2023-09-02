@@ -1,28 +1,71 @@
 [
         {
-                "columnNumber": 11,
-		"era": "Modern era",
-		"techCost": 3100,
-		"buildingCost": 500,
-		"wonderCost": 1060,
-		"techs": [
-                        {
-                                "name"
-                        },
-                ]
-        },
-        {
-                "columnNumber": 11,
+		"columnNumber": 10,
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
 		"techs": [
 			{
-				"name": "Refrigeration",
+				"name": "Railroads",
+				"row": 8,
+				"prerequisites": ["Industrialization","Military Science"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			},
+		]
+	},
+	{
+                "columnNumber": 12,
+		"era": "Discovering era",
+		"techCost": 3100,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+                        {
+                                "name": "Military Industry",
 				"row": 2,
+				"prerequisites": ["Replaceable Parts","Combustion"],
+			},
+			{
+				"name": "Tactics",
+				"row": 8,
+				"prerequisites": ["Breechloader","Grenades"],
+			},
+			{
+				"name": "Aerodynamics",
+				"row": 6,
+				"prerequisites": ["Flight"],
+			},
+			{
+				"name": "Industrial Chemistry",
+				"row": 9,
+				"prerequisites": ["Replaceable Parts","Grenades"],
+			},
+			{
+				"name": "Ballistics",
+				"row": 7,
+				"prerequisites": ["Flight","Breechloader"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+			},
+                ]
+        },
+        {
+                "columnNumber": 11,
+		"era": "Discovering era",
+		"techCost": 3100,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+			{
+				"name": "Refrigeration",
+				"row": 1,
 				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+			},
+			{
+				"name": "Breechloader",
+				"row": 7,
+				"prerequisites": ["Rifling"],
 			},
 			{
 				"name": "Radio",
@@ -43,11 +86,16 @@
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
-				"name": "Railroads",
+				"name": "Grenades",
+				"row": 9,
+				"prerequisites": ["Dynamite"],
+			},
+			{
+				"name": "Combustion",
 				"row": 8,
-				"prerequisites": ["Steam Power","Dynamite"],
-				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
-			}
+				"prerequisites": ["Railroads"],
+				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			},
 		]
 	},
 	{
@@ -69,18 +117,6 @@
 				"prerequisites": ["Replaceable Parts", "Flight"],
 				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
-			{
-				"name": "Ballistics",
-				"row": 6,
-				"prerequisites": ["Flight"],
-				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
-			},
-			{
-				"name": "Combustion",
-				"row": 8,
-				"prerequisites": ["Railroads"],
-				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
-			}
 		]
 	},
 	{
