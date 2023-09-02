@@ -1,0 +1,16 @@
+[
+        {
+                "name": "Trench",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 3,
+		"techRequired": "Tactics",
+		"uniques": ["Gives a defensive bonus of [100]% <for [Gunpowder] units>","Gives a defensive bonus of [100]% <for [Ranged Gunpowder] units>","Gives a defensive bonus of [50]% <for [Siege] units>","Can be built outside your borders"],
+        },
+        {
+                "name": "Barbed wire",
+                "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 3,
+		"techRequired": "Tactics",
+                "uniques": ["Units ending their turn on this terrain take [20] damage","Gives a defensive bonus of [-50]%","Adjacent enemy units ending their turn take [10] damage","Can be built outside your borders"],
+        },
+]
