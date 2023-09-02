@@ -5,7 +5,7 @@
 		"movement": 4,
 		"strength": 60,
 		"cost": 350,
-		"requiredTech": "Combustion",
+		"requiredTech": "Military Industry",
 		"requiredResource": "Oil",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
@@ -20,7 +20,7 @@
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 350,
-		"requiredTech": "Ballistics",
+		"requiredTech": "Breechloader",
 		"upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
