@@ -24,7 +24,7 @@
                         {
                                 "name": "Military Industry",
 				"row": 2,
-				"prerequisites": ["Replaceable Parts","Combustion"],
+				"prerequisites": ["Replaceable Parts","Combustion","Refrigeration"],
 			},
 			{
 				"name": "Tactics",
@@ -58,7 +58,7 @@
 		"techs": [
 			{
 				"name": "Refrigeration",
-				"row": 1,
+				"row": 2,
 				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
@@ -129,7 +129,7 @@
 			{
 				"name": "Pharmaceuticals",
 				"row": 2,
-				"prerequisites": ["Plastics","Refrigeration"],
+				"prerequisites": ["Plastics"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
 			{
