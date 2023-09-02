@@ -33,8 +33,8 @@
 			},
 			{
 				"name": "Aerodynamics",
-				"row": 6,
-				"prerequisites": ["Flight"],
+				"row": 3,
+				"prerequisites": ["Flight","Radio"],
 			},
 			{
 				"name": "Industrial Chemistry",
@@ -43,7 +43,7 @@
 			},
 			{
 				"name": "Ballistics",
-				"row": 7,
+				"row": 4,
 				"prerequisites": ["Flight","Breechloader"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
@@ -81,7 +81,7 @@
 			},
 			{
 				"name": "Flight",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Steam Power"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
