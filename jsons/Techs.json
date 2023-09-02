@@ -1,7 +1,7 @@
 [
         {
 		"columnNumber": 10,
-		"era": "Modern era",
+		"era": "Industrial era",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
@@ -99,7 +99,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -108,20 +108,20 @@
 			{
 				"name": "Plastics",
 				"row": 3,
-				"prerequisites": ["Radio","Replaceable Parts"],
+				"prerequisites": ["Ballistics","Industrial Chemistry"],
 				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
 			},
 			{
 				"name": "Electronics",
 				"row": 5,
-				"prerequisites": ["Replaceable Parts", "Flight"],
+				"prerequisites": ["Military Industry", "Aerodynamics"],
 				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 		]
 	},
 	{
-		"columnNumber": 13,
-		"era": "Atomic era",
+		"columnNumber": 14,
+		"era": "Modern era",
 		"techCost": 5100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -141,19 +141,19 @@
 			{
 				"name": "Radar",
 				"row": 6,
-				"prerequisites": ["Ballistics","Electronics"],
+				"prerequisites": ["Plastics","Electronics"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
 				"name": "Combined Arms",
 				"row": 8,
-				"prerequisites": ["Ballistics","Combustion"],
+				"prerequisites": ["Electronics","Tactics"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -186,7 +186,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -233,7 +233,7 @@
 	},
 
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -272,7 +272,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Future era",
 		"techCost": 9500,
 		"buildingCost": 750,
